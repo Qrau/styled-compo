@@ -17,6 +17,8 @@ export const Button = styled(LinkS)`
     transition: all 0.2s ease-in-out;
 
     &:hover {
-        
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010606;
     }
 `
