@@ -20,7 +20,7 @@ const Services = () => {
                 <ServicesWrapper>
                     <ServicesCard>
                         <ServicesIcon src={Icon1} />
-                        <ServicesH2>Reduce Expenses</ServicesH2>
+                        <ServicesH2>Reduce Expenses Expenses Expenses</ServicesH2>
                         <ServicesP> Hello we help you so much do you wan that yhas tohzt kasf g wepo </ServicesP>
                     </ServicesCard>
                     <ServicesCard>

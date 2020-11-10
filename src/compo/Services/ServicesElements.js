@@ -45,7 +45,7 @@ export const ServicesCard = styled.div`
     border-radius: 10px;
     max-height: 340px;
     padding: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
     
     &:hover {
@@ -64,7 +64,8 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
-    margin-bottom: 64px;
+    margin-bottom: 34px;
+    margin-top: -34px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;

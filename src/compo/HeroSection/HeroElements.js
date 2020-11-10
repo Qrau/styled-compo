@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 
+
 export const HeroContainer = styled.div`
     background: #0c0c0c;
     display: flex;
@@ -9,8 +10,6 @@ export const HeroContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
-    top: 80px;
-  
     
     :before {
         content: '';
@@ -22,7 +21,8 @@ export const HeroContainer = styled.div`
         background: linear-gradient(180deg, rgba(0,0,0,2) 0%, transparent 100%);
         z-index: 2;
     }
-`;
+`
+
 
 export const HeroBg = styled.div`
     position: absolute;
@@ -34,7 +34,8 @@ export const HeroBg = styled.div`
     height: 100%;
     overflow: hidden; 
 
-`;
+`
+
 
 export const VideoBg = styled.video`
     width: 100%;
@@ -42,7 +43,8 @@ export const VideoBg = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
-`;
+`
+
 
 export const HeroContent = styled.div`
     z-index: 3;
@@ -52,8 +54,9 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 80px;
-`;
+    top: 120px;
+`
+
 
 export const HeroH1 = styled.h1`
     color: #fff;
@@ -67,6 +70,7 @@ export const HeroH1 = styled.h1`
         font-size: 32px;
     }
 `
+
 
 export const HeroP = styled.p`
     color: #fff;

@@ -7,6 +7,7 @@ export const homeObjOne = {
     id: 'about',
     lightBg: false,
     lightText: true,
+    LightTextDesc: false,
     topLine: 'Premium Bank',
     headline: 'Unlimited Transiactions with zero fees',
     description: 'Unlimited Transiactions with zero fees Unlimited Transiactions with zero fees Unlimited Transiactions with zero fees Unlimited Transiactions with zero fees',
