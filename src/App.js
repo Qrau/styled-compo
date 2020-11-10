@@ -1,11 +1,15 @@
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import './App.css'
-import {BrowserRouter as Router} from 'react-router-dom'
 import Home from './pages'
+import SignIn from './compo/SignIn'
 
 function App () {
   return (
     <Router>
-      <Home/>
+      <Switch>
+        <Route path='/' component={Home} exact />
+        <Route path='/signin' component={SignIn} />
+      </Switch>
     </Router>
   )
 }
